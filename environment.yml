@@ -1,0 +1,9 @@
+name: ml-workshop-v3
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.*
+  - scikit-learn=1.4.*
+  - seaborn
+  - pandas
+  - jupyterlab
