@@ -6,9 +6,7 @@
 
 Scikit-learn is a Python machine learning library used by data science practitioners from many disciplines. We start this training by learning about scikit-learn's API for supervised machine learning. scikit-learn's API mainly consists of three methods: fit to build models, predict to make predictions from models, and transform to modify data. This consistent and straightforward interface helps to abstract away the algorithm, thus allowing us to focus on our particular problems. We explore the preprocessing techniques on numerical, categorical data, and missing data. We see how to use the Pandas output API to see how to use Panda DataFrames with scikit-learn. Lastly, we cover the Pipeline, which enables us to connect transformers with a classifier or regressor to build a data flow where the output of one layer is the input of another. After this training, you will have the foundations to apply scikit-learn to your machine-learning problems.
 
-## Obtaining the Material
-
-### Run with Google's Colab
+## Quick start with Google Colab
 
 You can run the notebooks on Google's Colab:
 
@@ -16,6 +14,8 @@ You can run the notebooks on Google's Colab:
 2. [Preprocessing](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intro-v3/blob/main/notebooks/02-preprocessing.ipynb)
 3. [Pipelines](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intro-v3/blob/main/notebooks/03-pipelines.ipynb)
 4. [Categorical Data](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intro-v3/blob/main/notebooks/04-categorical-data.ipynb)
+
+## Obtaining the Material
 
 ### With git
 
