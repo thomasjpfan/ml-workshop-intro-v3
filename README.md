@@ -10,7 +10,7 @@ Scikit-learn is a Python machine learning library used by data science practitio
 
 ### Run with Google's Colab
 
-If you have any issues with installing `conda` or running `jupyter` on your local computer, then you can run the notebooks on Google's Colab:
+You can run the notebooks on Google's Colab:
 
 1. [Supervised learning with scikit-learn](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intro-v3/blob/main/notebooks/01-supervised-learning.ipynb)
 2. [Preprocessing](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intro-v3/blob/main/notebooks/02-preprocessing.ipynb)
