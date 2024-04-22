@@ -650,5 +650,7 @@ class: title-slide, left
 ]
 ]
 
+<br>
+
 ### Today's Material - [github.com/thomasjpfan/ml-workshop-intro-v3](github.com/thomasjpfan/ml-workshop-intro-v3)
 ### Tomorrow - *Flyte: A Production-Ready Open Source AI Platform @ 12:10 PM*
