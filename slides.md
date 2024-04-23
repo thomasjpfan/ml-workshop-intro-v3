@@ -115,6 +115,15 @@ class: middle
 
 ---
 
+# Reinforcement Learning
+
+.center[
+![:scale 80%](images/dota.png)
+]
+
+[Link to Source](https://arxiv.org/abs/1912.06680)
+
+---
 
 name: supervised
 class: chapter-slide
@@ -124,6 +133,24 @@ class: chapter-slide
 .footnote-back[
 [Back to Table of Contents](#table-of-contents)
 ]
+
+---
+
+# Higgs Boson
+
+.center[
+![](images/higgs.png)
+]
+
+[Machine Learning Wins the Higgs Challenge](https://atlas.cern/updates/atlas-news/machine-learning-wins-higgs-challenge)
+
+---
+
+.center[
+![:scale 90%](images/blood_quality.png)
+]
+
+[Link to Source](https://www.broadinstitute.org/news/deep-learning-model-assesses-quality-stored-blood)
 
 ---
 
@@ -284,6 +311,8 @@ class: chapter-slide
 ![:scale 90%](images/knn-scaling.svg)
 
 ---
+
+class: chapter-slide
 
 # Notebook 📕!
 ## notebooks/02-preprocessing.ipynb
@@ -586,7 +615,9 @@ class: chapter-slide
 
 ---
 
-# notebook 📕!
+class: chapter-slide
+
+# Notebook 📕!
 ## notebooks/04-categorical-data.ipynb
 
 ---
