@@ -422,14 +422,14 @@ class: chapter-slide
 
 ## Bad
 ```py
-selector = SequentialFeatureSelector()
+selector = SelectPercentile()
 X_train_selected = selector.fit_transform(X_train)
 X_test_selected = selector.fit_transform(X_test)
 ```
 
 ## Good
 ```py
-selector = SequentialFeatureSelector()
+selector = SelectPercentile()
 X_train_selected = selector.fit_transform(X_train)
 X_test_selected = selector.transform(X_test)
 ```
@@ -441,10 +441,10 @@ X_test_selected = selector.transform(X_test)
 ## Before
 
 ```py
-selector = SequentialFeatureSelector().fit(X_train)
+selector = SelectPercentile().fit(X_train)
 X_train_selected = selector.transform(X_train)
 
-est = RandomFores().fit(X_train_selected, y_train)
+est = Ridge().fit(X_train_selected, y_train)
 
 # Evaluate on test data
 X_test_selected = selected.transform(X_test)
@@ -456,7 +456,7 @@ est.score(X_test_selected, y_test)
 ```py
 *from sklearn.pipeline import make_pipeline
 
-pipe = make_pipeline(SequentialFeatureSelector(), Ridge())
+pipe = make_pipeline(SelectPercentile(), Ridge())
 
 pipe.fit(X_train, y_train)
 pipe.score(X_test, y_test)
