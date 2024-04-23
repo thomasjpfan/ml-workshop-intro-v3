@@ -438,8 +438,8 @@ class: chapter-slide
 ## Bad
 ```py
 selector = SelectPercentile()
-X_train_selected = selector.fit_transform(X_train)
-X_test_selected = selector.fit_transform(X_test)
+X_transformed = selector.fit(X)
+X_test_selected = selector.transform(X_test)
 ```
 
 ## Good
